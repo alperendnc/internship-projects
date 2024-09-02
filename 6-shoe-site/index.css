@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    text-decoration: none;
+  }
+  .icon {
+    font-size: larger;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .ic {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    gap: 10px;
+    display: flex;
+    border-bottom: 1px solid #929292;
+  }
+  .ic a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-items p {
+    margin: 0 15px;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+  }
+  .icon {
+    font-size: 24px;
+    color: #333;
+  }
+  .list {
+    font-size: 24px;
+    color: #333;
+    visibility: hidden;
+  }
+  .alt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .grid-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  .grid-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .caption {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .grid-item {
+      padding: 15px;
+    }
+    .caption {
+      font-size: 40px;
+    }
+    .ic {
+      padding: 20px;
+      text-align: center;
+    }
+    .ic a,
+    .nav-items p,
+    .icon i {
+      font-size: 36px;
+      margin: 0;
+      display: flex;
+      justify-content: start;
+    }
+    .nav-items {
+      display: none;
+    }
+    .list {
+      visibility: visible;
+    }
+  }
+  

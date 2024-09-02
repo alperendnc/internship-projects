@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+    <div class="genel">
+        <div class="container">
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="yon">
+            <div class="sol">
+                <div class="yazi">
+                    <p>Welcome to the</p>
+                    <p><b>Frontend Quiz!</b></p>
+                    <br>
+                    <i>Pick a subject to get started</i>
+                </div>
+            </div>
+            <div class="sag">
+                <button class="btn" id="htmlButton">
+                    <img src="image/html.png" alt="HTML">  
+                    <span class="b">HTML</span>
+                </button>
+                <button class="btn">
+                    <img src="image/css.png" alt="CSS">
+                    <span class="b">CSS</span>
+                </button>
+                <button class="btn">
+                    <img src="image/javascript.png" alt="JavaScript">
+                    <span class="b">JavaScript</span>
+                </button>
+                <button class="btn">
+                    <img src="image/accessibility.png" alt="Accessibility">
+                    <span class="b">Accessibility</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="genel2">
+        <div class="yeni">
+            <b class="yazi2"> <img class="html " src="image/html.png" alt="">Html</b>
+            <div>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch2">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="yon2">
+                <div class="sol2">
+                    <strong class="soru1">1.Domain Name nedir?</strong>
+                    <strong class="soru2">2.Host Name nedir?</strong>
+                    <strong class="soru3">3.DNS nedir?</strong>
+                    <strong class="soru4">4.FTP nedir?</strong>
+                    <strong class="soru5">5.HTML kaç türlü liste düzenler?</strong>
+                    <strong class="soru6">6.ul nedir?</strong>
+                    <strong class="soru7">7.2x2 tablo yaratan HTML kodu nedir?</strong>
+                    <strong class="soru8">8.Satır başlığı yazan HTML kodu nedir?</strong>
+                    <strong class="soru9">9.Kolon başlığı yazan HTML kodu nedir?</strong>
+                    <strong class="soru10">10.li nedir?</strong>
+                    <br><br><br>
+                    <progress class="bar" min="0" max="100" value="0"></progress>
+                </div>
+          
+                    <div class="sag2">
+                        <div class="cevap-grup soru1-answers">
+                            <button class="btn" id="htmlButton1">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">Sunucunun IP adresinin sözel karşılığıdır</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">href</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">İstemcinin IP adresinin sözel karşılığıdır</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">Host Name ile eş anlamlıdır</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru2-answers" style="display:none;">
+                            <button class="btn" id="htmlButton2">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">Hostun adı</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">HTML'in kök dizinini temsil eder</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">Sunucunun bağlantı protokolü</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">Bir dosyanın uzantısını temsil eder</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru3-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">DNS, Alan Adı Sistemi anlamına gelir</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">DNS, bir IP adresini çözer</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">DNS, sunucuya veri gönderir</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">DNS, kullanıcı verilerini şifreler</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru4-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">FTP, Dosya Transfer Protokolüdür</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">FTP, dosya yedekleme protokolüdür</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">FTP, e-posta gönderme protokolüdür</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">FTP, güvenlik protokolüdür</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru5-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">HTML, 3 türlü liste düzenler</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">HTML, 4 türlü liste düzenler</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">HTML, 2 türlü liste düzenler</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">HTML, 5 türlü liste düzenler</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru6-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">ul, sırasız liste oluşturur</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">ul, sıralı liste oluşturur</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">ul, tanımlı liste oluşturur</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">ul, liste başlığı oluşturur</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru7-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">&lt;table&gt;&lt;tr&gt;&lt;td&gt;2x2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">&lt;table&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/table&gt;</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru8-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">&lt;h1&gt;&lt;/h1&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">&lt;h2&gt;&lt;/h2&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">&lt;h3&gt;&lt;/h3&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">&lt;h4&gt;&lt;/h4&gt;</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru9-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">&lt;th&gt;&lt;/th&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">&lt;td&gt;&lt;/td&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">&lt;tr&gt;&lt;/tr&gt;</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">&lt;ul&gt;&lt;/ul&gt;</span>
+                            </button>
+                        </div>
+                    
+                        <div class="cevap-grup soru10-answers" style="display:none;">
+                            <button class="btn">
+                                <img src="image/A.png" alt="A">
+                                <span class="b">li, liste öğesi oluşturur</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/B.png" alt="B">
+                                <span class="b">li, liste başlığı oluşturur</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/C.png" alt="C">
+                                <span class="b">li, tablo başlığı oluşturur</span>
+                            </button>
+                            <button class="btn">
+                                <img src="image/D.png" alt="D">
+                                <span class="b">li, metin başlığı oluşturur</span>
+                            </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

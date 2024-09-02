@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(29, 29, 30);
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+}
+.yon {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.sol {
+    width: 40%;
+    color: rgb(111, 111, 112);
+}
+p {
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+i {
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sag {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.btn {
+    width: 400px; 
+    height: 60px;
+    background-color: rgb(111, 111, 112);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.btn img {
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.btn .b {
+    color: white;
+}
+.html{
+    cursor: pointer;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.container .fa {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+}
+.genel {
+    width: 100%;
+    height: 100%;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+.yeni {
+    width: 90%;
+    height: 35%;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yazi2 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.yon2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.sol2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.sag2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.genel2 {
+    display: none;
+    height: 100%;
+}
+.genel2.active {
+    display: block;
+}
+.html {
+    width: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+progress {
+    width: 80%;
+    height: 10px;
+    background: #000000;
+    border-radius: 5px;
+}
+strong {
+    font-size: 30px;
+    color: #ccc;
+    width: 100%;
+}
+.soru2, .soru3, .soru4, .soru5, .soru6, .soru7, .soru8, .soru9, .soru10 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .yon,.yon2 {
+        flex-direction: column;
+    }
+    .sol,.sol2 {
+        width: 100%;
+    }
+    .sag,.sag2 {
+        width: 100%;
+    }
+}

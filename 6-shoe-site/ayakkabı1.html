@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ayakkabı1.css" />
+    <link rel="stylesheet" href="ayakkabı1.js">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ust">
+      <div class="ic">
+        <div class="list">
+        <a href="index.html">
+            <i class="fa fa-list"></i>
+          </div>
+          <b>Sneakers</b>
+        </a>
+        <div class="nav-items">
+          <p>Collections</p>
+          <p>Man</p>
+          <p>Woman</p>
+          <p>About</p>
+          <p>Contact</p>
+        </div>
+        <div class="icon">
+          <i class="fa fa-cart-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div class="altt">
+      <div class="sol">
+        <img src="image/2.jpeg" alt="" />
+        <div class="pngs">
+          <img class="open-modal1" src="image/resim1.png" alt=""/>
+          <img class="open-modal2" src="image/resim2.png" alt=""/>
+          <img class="open-modal3" src="image/resim3.png" alt=""/>
+        </div>
+      </div>
+      <div class="modal modal1">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close-modal">&times</button>
+          </div>
+          <div class="modal-body">
+            <img src="image/resim1.png" alt="">
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+      <div class="modal modal2">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close-modal2">&times</button>
+          </div>
+          <div class="modal-body">
+            <img src="image/resim2.png" alt="">
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+      <div class="modal modal3">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close-modal3">&times</button>
+          </div>
+          <div class="modal-body">
+            <img src="image/resim3.png" alt="">
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+      <div class="sag">
+        <i>SNEAKER COMPANY</i>
+        <b>Fall Limited Edition Sneakers</b>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price">
+          <span>$125</span>
+          <strong>50%</strong>
+        </div>
+        <del>$250</del>
+        <br />
+        <div class="down">
+          <div class="sayac-container">
+            <div class="sayac">
+              <button onclick="decreaseQuantity()">-</button>  <!-- Azalıp arttırmayı düzenle-->
+              <input type="text" id="quantity" value="1" />
+              <button onclick="increaseQuantity()">+</button> 
+            </div>
+          </div>
+          <button class="a fa fa-cart-plus add-to-cart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="ayakkabı1.js"> </script>
+  </body>
+</html>

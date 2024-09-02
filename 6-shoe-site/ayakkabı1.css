@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ust {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+p {
+  font-size: 15px;
+  margin: 0;
+  color: #929292;
+}
+b {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+.ic {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #929292;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.altt {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sol {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.sol img {
+  width: 60%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pngs {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.pngs img {
+  width: auto;
+  height: calc(27.27%);
+  cursor: pointer;
+}
+.pngs img:hover {
+  opacity: 20%;
+}
+.sag {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+i {
+  font-weight: bold;
+  font-size: 15px;
+}
+.sag b {
+  font-size: 350%;
+  color: #555;
+  margin-bottom: 20px;
+}
+.sag p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+strong {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+del {
+  opacity: 60%;
+}
+.sayac {
+  display: flex;
+  border-radius: 5px;
+  background-color: rgb(232, 232, 232);
+  overflow: hidden;
+}
+.sayac button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(232, 232, 232);
+  color: #e59400;
+  cursor: pointer;
+  font-size: 26px;
+}
+.sayac input {
+  width: 40px;
+  text-align: center;
+  border: none;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: rgb(232, 232, 232);
+}
+.sayac-container {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.a {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 46px;
+}
+.down {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.fa {
+  font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.sample {
+  padding: 2rem;
+  text-align: center;
+}
+p {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+button {
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+button:hover {
+  color: #111;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background: rgba(0, 0, 0, 0.7);
+}
+.modal.visible {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}
+.modal-content {
+  border: none;
+  text-decoration: none;
+  max-width: 400px;
+  width: 100%;
+  transition: all 0.6s ease;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-modal,
+.close-modal2,
+.close-modal3 {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.close-modal:hover,
+.close-modal2:hover,
+.close-modal3:hover {
+  color: #000;
+}
+.modal-body {
+  padding: 1.5rem;
+}
+.modal-body2 {
+  padding: 1.5rem;
+}
+.modal-footer {
+  padding: 1rem;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .ust {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .ic {
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+    gap: 15px;
+  }
+  .nav-items {
+    display: none;
+  }
+  .icon {
+    width: 100%;
+    padding-bottom: 2px;
+  }
+  .sag {
+    font-size: 10px;
+  }
+  .sag p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .altt {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sol {
+    width: 100%;
+  }
+  .sag {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .sol img {
+    width: 100%;
+  }
+  .sag b {
+    font-size: 40px;
+  }
+  .price,
+  .sag p,
+  .sag i {
+    font-size: 24px;
+  }
+  .sayac button,
+  .sayac input {
+    font-size: 24px;
+    width: 50%;
+  }
+  .a {
+    width: 50%;
+    font-size: 24px;
+  }
+  @media (max-width: 768px) {
+    .pngs {
+      width: 100%;
+    }
+    .pngs img {
+      width: 30%;
+      height: auto;
+      cursor: pointer;
+    }
+    .pngs img:hover {
+      opacity: 0.8;
+    }
+  }
+}
