@@ -1,7 +1,7 @@
 ## Internship Projects
 This repository contains multiple projects related to frontend development:
 
-[1. Communication-site](https://github.com/alperendnc/internship-projects/tree/main/7-random-password)
+[1. Communication-site](https://github.com/alperendnc/internship-projects/tree/main/1-communication-site)
 
 [2. Omlet-Recipe](https://github.com/alperendnc/internship-projects/tree/main/2-omlet-recipe)
 
@@ -20,6 +20,7 @@ This repository contains multiple projects related to frontend development:
 [7. Random-Password](https://github.com/alperendnc/internship-projects/tree/main/7-random-password)
 ## Overview
 The projects listed above have been completed during the internship and are simple projects that those looking to improve their skills in HTML, CSS, and JavaScript can undertake.
+<<<<<<< HEAD
 ## Usage
 
 To run this project on your local machine, follow these steps:
@@ -37,3 +38,5 @@ To run this project on your local machine, follow these steps:
     ![img](image.png)
     
 4.  Open the `index.html` file in a web browser to view the recipe.
+=======
+>>>>>>> 14dcf68957e77b08334983758294f880a9dea733
