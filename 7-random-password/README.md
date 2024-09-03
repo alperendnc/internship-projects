@@ -14,7 +14,7 @@ This project is a simple password generator application. It allows users to cust
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/alperendnc/password-generator.git
+    git clone https://github.com/alperendnc/random-password.git
 2. **Navigate to the project directory:**
     ```bash
     cd password-generator

@@ -14,7 +14,7 @@ To view the omelette recipe webpage on your local machine, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/alperendnc/omelette-recipe.git
+    git clone https://github.com/alperendnc/omlet-recipe.git
     ```
 2. Navigate to the project directory:
     ```bash

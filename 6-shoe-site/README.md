@@ -14,7 +14,7 @@ This project showcases a collection of sneakers in a grid layout. Users can view
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/alperendnc/sneakers-web-page.git
+    git clone https://github.com/alperendnc/shoe-site.git
     ```
 2. **Navigate to the project directory:**
     ```bash

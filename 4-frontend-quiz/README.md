@@ -13,7 +13,7 @@ This project is a responsive frontend quiz web application. It presents users wi
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/alperendnc/frontend-quiz-app.git
+    git clone https://github.com/alperendnc/frontend-quiz.git
     ```
 2. **Navigate to the project directory:**
     ```bash
