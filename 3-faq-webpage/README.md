@@ -14,17 +14,4 @@ This project is a simple FAQ (Frequently Asked Questions) webpage, featuring a t
 - `index.css`: The CSS file that styles the webpage.
 - `index.js`: The JavaScript file that handles the toggle functionality.
 
-## Usage
-
-To use this FAQ webpage on your local machine, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/alperendnc/faq-webpage.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd faq-webpage
-    ```
-3. Open the `index.html` file in your web browser to view the webpage.
 

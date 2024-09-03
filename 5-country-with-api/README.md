@@ -10,29 +10,6 @@ This project is a web application that allows users to search for countries and 
 - **Region Filter:** A dropdown menu allows users to filter countries by region.
 - **Responsive Design:** The layout adjusts to different screen sizes for optimal viewing on both desktop and mobile devices.
 - **APİ link:** https://restcountries.com/v3.1/all 
-## Installation
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/alperendnc/country-with-api.git
-    ```
-2. **Navigate to the project directory:**
-    ```bash
-    cd country-info-app
-    ```
-3. **Open the project in VS Code (optional):**
-    ```bash
-    code .
-    ```
-
-## Running the Project
-
-1. **Open `index.html` in a web browser.**
-2. Alternatively, use VS Code with the Live Server extension to view the project locally:
-    - Right-click on `index.html` in the VS Code editor.
-    - Select `Open with Live Server`.
-
-
 
 ## HTML Code Breakdown
 

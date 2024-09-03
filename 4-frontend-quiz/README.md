@@ -9,27 +9,6 @@ This project is a responsive frontend quiz web application. It presents users wi
 - **Progress Tracking:** A progress bar displays the user's progress through the quiz.
 - **Interactive Quiz:** Multiple-choice questions with answer buttons.
 
-## Installation
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/alperendnc/frontend-quiz.git
-    ```
-2. **Navigate to the project directory:**
-    ```bash
-    cd frontend-quiz-app
-    ```
-3. **Open the project in VS Code (optional):**
-    ```bash
-    code .
-    ```
-## Running the Project
-
-1. **Open `index.html` in a web browser.**
-2. Alternatively, use VS Code with the Live Server extension to view the project locally:
-    - Right-click on `index.html` in the VS Code editor.
-    - Select `Open with Live Server`.
-
 ## File Structure
 
   - **`index.html`:** Contains the structure for the quiz application. It includes:
