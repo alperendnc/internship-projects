@@ -1,7 +1,7 @@
 ## Internship Projects
 This repository contains multiple projects related to frontend development:
 
-[1. Communication-site](https://github.com/alperendnc/internship-projects/tree/main/7-random-password)
+[1. Communication-site](https://github.com/alperendnc/internship-projects/tree/main/1-communication-site)
 
 [2. Omlet-Recipe](https://github.com/alperendnc/internship-projects/tree/main/2-omlet-recipe)
 
