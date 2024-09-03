@@ -20,7 +20,7 @@ This repository contains multiple projects related to frontend development:
 [7. Random-Password](https://github.com/alperendnc/internship-projects/tree/main/7-random-password)
 ## Overview
 The projects listed above have been completed during the internship and are simple projects that those looking to improve their skills in HTML, CSS, and JavaScript can undertake.
-<<<<<<< HEAD
+
 ## Usage
 
 To run this project on your local machine, follow these steps:
