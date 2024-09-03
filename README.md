@@ -38,5 +38,5 @@ To run this project on your local machine, follow these steps:
     ![img](image.png)
     
 4.  Open the `index.html` file in a web browser to view the recipe.
-=======
->>>>>>> 14dcf68957e77b08334983758294f880a9dea733
+
+
