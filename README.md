@@ -26,7 +26,7 @@ This repository contains multiple projects related to frontend development:
 [9.Body-Mass-Index-Calculator](https://github.com/alperendnc/internship-projects/tree/main/9-body-mass-index-calculator
 )
 ## Overview
-The projects listed above have been completed during the internship and are simple projects that those looking to improve their skills in HTML, CSS, and JavaScript can undertake.
+The projects listed above have been completed during the internship and are simple projects that those looking to improve their skills in HTML, CSS, JavaScript,and React can undertake.
 
 ## Usage
 
