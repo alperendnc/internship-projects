@@ -5,19 +5,25 @@ This repository contains multiple projects related to frontend development:
 
 [2. Omlet-Recipe](https://github.com/alperendnc/internship-projects/tree/main/2-omlet-recipe)
 
-[3. FAQ-Webpage](https://github.com/alperendnc/internship-projects/tree/main/3-faq-webpage
+[3.FAQ-Webpage](https://github.com/alperendnc/internship-projects/tree/main/3-faq-webpage
 )
 
-[4. Frontend-Quız](https://github.com/alperendnc/internship-projects/tree/main/4-frontend-quiz
+[4.Frontend-Quız](https://github.com/alperendnc/internship-projects/tree/main/4-frontend-quiz
 )
 
-[5. Country-With-Api](https://github.com/alperendnc/internship-projects/tree/main/5-country-with-api
+[5.Country-With-Api](https://github.com/alperendnc/internship-projects/tree/main/5-country-with-api
 )
 
-[6. Shoe-Site](https://github.com/alperendnc/internship-projects/tree/main/6-shoe-site
+[6.Shoe-Site](https://github.com/alperendnc/internship-projects/tree/main/6-shoe-site
 )
 
-[7. Random-Password](https://github.com/alperendnc/internship-projects/tree/main/7-random-password)
+[7.Random-Password](https://github.com/alperendnc/internship-projects/tree/main/7-random-password
+)
+
+[8.Counter](https://github.com/alperendnc/internship-projects/tree/main/8-counter
+)
+[9.body-mass-index-calculator][8.Counter](https://github.com/alperendnc/internship-projects/tree/main/9-body-mass-index-calculator
+)
 ## Overview
 The projects listed above have been completed during the internship and are simple projects that those looking to improve their skills in HTML, CSS, and JavaScript can undertake.
 
@@ -35,7 +41,7 @@ To run this project on your local machine, follow these steps:
     ```
 3.  Choose one of the projects 
 
-    ![img](image.png)
+![alt text](image-3.png)
     
 4.  Open the `index.html` file in a web browser to view the recipe.
 
