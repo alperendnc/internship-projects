@@ -22,6 +22,7 @@ This repository contains multiple projects related to frontend development:
 
 [8.Counter](https://github.com/alperendnc/internship-projects/tree/main/8-counter
 )
+
 [9.body-mass-index-calculator](https://github.com/alperendnc/internship-projects/tree/main/9-body-mass-index-calculator
 )
 ## Overview
