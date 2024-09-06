@@ -46,4 +46,4 @@ To run this project on your local machine, follow these steps:
     
 4.  Open the `index.html` file in a web browser to view the recipe.
 
-
+5. If you chose the 8th and 9th projects, their working principles are different from the others. You can look at the readme section of the projects to see how they work.
