@@ -42,7 +42,7 @@ To run this project on your local machine, follow these steps:
     ```
 3.  Choose one of the projects 
 
-![alt text](image-3.png)
+![alt text](image.png)
     
 4.  Open the `index.html` file in a web browser to view the recipe.
 
