@@ -36,7 +36,3 @@ To run this project locally, follow these steps:
     ```bash
     yarn run
     ```
-
-## License
-
-    This project is licensed under the MIT License.

@@ -9,16 +9,12 @@ This project is a web application that allows users to search for countries and 
 - **Search Functionality:** Users can search for countries using the search bar.
 - **Region Filter:** A dropdown menu allows users to filter countries by region.
 - **Responsive Design:** The layout adjusts to different screen sizes for optimal viewing on both desktop and mobile devices.
-- **APİ link:** https://restcountries.com/v3.1/all 
+- **APİ link:** https://restcountries.com/v3.1/all
 
 ## HTML Code Breakdown
 
-  - **`<div class="ust">`:** Contains the main heading of the application.
-  - **`<div class="alt">`:** Contains the search bar and region filter dropdown.
-  - **`<div class="search-container">`:** Wrapper for the search input and button.
-  - **`<div class="region-container">`:** Wrapper for the region filter dropdown.
-  - **`<div class="list" id="countryList">`:** Container for displaying the list of countries.
-
-## License
-
-This project is licensed under the MIT License.
+- **`<div class="ust">`:** Contains the main heading of the application.
+- **`<div class="alt">`:** Contains the search bar and region filter dropdown.
+- **`<div class="search-container">`:** Wrapper for the search input and button.
+- **`<div class="region-container">`:** Wrapper for the region filter dropdown.
+- **`<div class="list" id="countryList">`:** Container for displaying the list of countries.
