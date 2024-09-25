@@ -2,23 +2,23 @@
 
 This repository contains multiple projects related to frontend development:
 
-[01. Communication-site](https://github.com/alperendnc/internship-projects/tree/main/1-communication-site)
+[01. Communication-site](https://github.com/alperendnc/internship-projects/tree/main/01-communication-site)
 
-[02. Omlet-Recipe](https://github.com/alperendnc/internship-projects/tree/main/2-omlet-recipe)
+[02. Omlet-Recipe](https://github.com/alperendnc/internship-projects/tree/main/02-omlet-recipe)
 
-[03.FAQ-Webpage](https://github.com/alperendnc/internship-projects/tree/main/3-faq-webpage)
+[03.FAQ-Webpage](https://github.com/alperendnc/internship-projects/tree/main/03-faq-webpage)
 
-[04.Frontend-Quız](https://github.com/alperendnc/internship-projects/tree/main/4-frontend-quiz)
+[04.Frontend-Quız](https://github.com/alperendnc/internship-projects/tree/main/04-frontend-quiz)
 
-[05.Country-With-Api](https://github.com/alperendnc/internship-projects/tree/main/5-country-with-api)
+[05.Country-With-Api](https://github.com/alperendnc/internship-projects/tree/main/05-country-with-api)
 
-[06.Shoe-Site](https://github.com/alperendnc/internship-projects/tree/main/6-shoe-site)
+[06.Shoe-Site](https://github.com/alperendnc/internship-projects/tree/main/06-shoe-site)
 
-[07.Random-Password](https://github.com/alperendnc/internship-projects/tree/main/7-random-password)
+[07.Random-Password](https://github.com/alperendnc/internship-projects/tree/main/07-random-password)
 
-[08.Counter](https://github.com/alperendnc/internship-projects/tree/main/8-counter)
+[08.Counter](https://github.com/alperendnc/internship-projects/tree/main/08-counter)
 
-[09.Body-Mass-Index-Calculator](https://github.com/alperendnc/internship-projects/tree/main/9-body-mass-index-calculator)
+[09.Body-Mass-Index-Calculator](https://github.com/alperendnc/internship-projects/tree/main/09-body-mass-index-calculator)
 
 [10.Shopping-Cart](https://github.com/alperendnc/internship-projects/tree/main/10-shopping-cart)
 
