@@ -13,26 +13,37 @@ This project is a shopping cart application built with React. It allows users to
 
 To run this project locally, follow these steps:
 
-1.  Navigate to the project directory:
-    ```bash
-    cd 10-shopping-cart
-    ```
-2.  If you are using npm open terminal and write this sentence:
-    ```bash
-    npm install
-    ```
-3.  Or If you are using yarn
-    ```bash
-    yarn install
-    ```
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/10-shopping-cart.git
+   cd calculator-project
+   ```
+
+2. Install dependencies:
+   - Using npm:
+     ```bash
+     npm install
+     ```
+   - Or using yarn:
+     ```bash
+     yarn install
+     ```
 
 ## Running the Project
 
-1.  If you are using npm open terminal and write this sentence:
-    ```bash
-    npm run
-    ```
-2.  Or If you are using yarn
-    ```bash
-    yarn run
-    ```
+1. Start the development server:
+
+   - Using npm:
+     ```bash
+     npm start
+     ```
+   - Or using yarn:
+     ```bash
+     yarn start
+     ```
+
+2. Open the application in your browser:
+   ```plaintext
+   http://localhost:3000
+   ```

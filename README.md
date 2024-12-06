@@ -22,6 +22,8 @@ This repository contains multiple projects related to frontend development:
 
 [10.Shopping-Cart](https://github.com/alperendnc/internship-projects/tree/main/10-shopping-cart)
 
+[11.Calculator] (https://github.com/alperendnc/internship-projects/tree/main/11-calculator)
+
 ## Overview
 
 The projects listed above have been completed during the internship and are simple projects that those looking to improve their skills in HTML, CSS, JavaScript,and React can undertake.
@@ -42,4 +44,4 @@ To run this project on your local machine, follow these steps:
 
 4. Open the `index.html` file in a web browser to view the recipe.
 
-5. If you chose the 8th,9th or 10th projects, their working principles are different from the others. You can look at the readme section of the projects to see how they work.
+5. If you chose the projects after the 8th, their working principles are different from the others. You can look at the readme section of the projects to see how they work.
