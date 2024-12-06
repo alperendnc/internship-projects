@@ -22,7 +22,7 @@ This repository contains multiple projects related to frontend development:
 
 [10.Shopping-Cart](https://github.com/alperendnc/internship-projects/tree/main/10-shopping-cart)
 
-[11.Calculator] (https://github.com/alperendnc/internship-projects/tree/main/11-calculator)
+[11.Calculator](https://github.com/alperendnc/internship-projects/tree/main/11-calculator)
 
 ## Overview
 
